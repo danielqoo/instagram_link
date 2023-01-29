@@ -49,7 +49,7 @@ var boxB = Bodies.rectangle(vw/2, 210, 2, 2, {
 // };
 
 var prevBox = boxB; 
-for (let i = 0; i < 4; i++){
+for (let i = 0; i < 5; i++){
     var boxA = new Bodies.rectangle(vw/2 + Math.random() * 30, 250 + i*80, buttonLength, 60, {
         render: {
             visible: false,
